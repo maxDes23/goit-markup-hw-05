@@ -540,6 +540,8 @@ button {
 }
 
 .footer-link {
+  display: flex;
+  justify-content: space-between;
 }
 
 .link-card-footer {
@@ -554,6 +556,24 @@ button {
 .socials-footer:hover,
 .socials-footer:focus {
   background-color: var(--green-hover);
+}
+
+/* Footer subscribe form */
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: ;
+
+  
+
+}
+
+.subscribe-form-lable {
+
+}
+
+.subscribe-form-input {
+
 }
 
 /**
@@ -825,6 +845,41 @@ e .modal-form-lable {
   border: 1px solid rgba(46, 47, 66, 0.4);
   resize: none;
   padding: 8px 16px;
+}
+
+.modal-form-areement {
+
+}
+
+.modal-form-checkbox {
+
+}
+
+.modal-form-custom-checkbox {
+display: flex;
+align-items: center;
+justify-content: center;
+
+width: ;
+height: ;
+
+border: ;
+border-radius: ;
+
+transition: border-color  ,  background-color;
+}
+
+.modal-form-checkbox:checked + .modal-form-custom-checkbox {
+  border-color: ;
+  background-color: ;
+}
+
+.modal-form-checkbox-icon {
+opacity: 0;
+}
+
+.modal-form-areement-desc {
+
 }
 
 .modal-button {
