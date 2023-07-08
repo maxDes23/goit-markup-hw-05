@@ -910,11 +910,7 @@ button {
 }
 
 .modal-form-areement {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 24px;
+ 
 }
 
 .modal-form-checkbox {
@@ -936,12 +932,12 @@ button {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-checkbox:checked + .modal-form-custom-checkbox {
-  fill: var(--cloud);
+.modal-form-checkbox:checked {
+  border: none;
   border-color: var(--ocean);
   background-color: var(--ocean);
   transition: border-color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  border: none;
+  fill: #404bbf;
 }
 
 .modal-form-checkbox-icon {
