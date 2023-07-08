@@ -887,15 +887,6 @@ button {
   fill: var(--color-iris);
 }
 
-.modal-form-comment {
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.12px;
-  color: var(--lightslate);
-}
-
 .modal-form-textarea {
   width: 100%;
   height: 120px;
@@ -910,7 +901,7 @@ button {
 
   resize: none;
   padding: 8px 16px;
-  margin-top: 4px;
+
   margin-bottom: 16px;
 }
 
@@ -924,6 +915,13 @@ button {
   justify-content: center;
   gap: 8px;
   margin-bottom: 24px;
+  color: var(--lightslate);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.48px;
 }
 
 .modal-form-checkbox {
@@ -960,13 +958,6 @@ button {
 }
 
 .modal-form-areement-desc {
-  color: #8e8f99;
-  font-family: Roboto;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 0.48px;
 }
 
 .modal-checkbox-link {
