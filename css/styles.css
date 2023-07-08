@@ -848,9 +848,9 @@ button {
 .modal-form-field {
   display: block;
   font-size: 12px;
-  line-height: normal;
-  letter-spacing: 0.12px;
-  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
   margin-bottom: 4px;
 }
 
@@ -878,7 +878,8 @@ button {
   position: absolute;
   bottom: 8px;
   left: 16px;
-
+  top: 50%;
+  transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -887,6 +888,12 @@ button {
 }
 
 .modal-form-comment {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.12px;
+  color: var(--lightslate);
 }
 
 .modal-form-textarea {
@@ -903,6 +910,7 @@ button {
 
   resize: none;
   padding: 8px 16px;
+  margin-top: 4px;
   margin-bottom: 16px;
 }
 
