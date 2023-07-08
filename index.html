@@ -443,9 +443,11 @@
 
         <form class="modal-form" name="review_form">
           <div class="modal-form-field-container">
-            <label class="modal-form-field" for="user-name"></label>
-            <span class="modal-form-lable">Name</span>
-
+            <label class="modal-form-field" for="user-name">
+              <span class="modal-form-lable">Name</span></label
+            >
+          </div>
+          <div class="modal-input">
             <input
               class="modal-form-input"
               type="text"
@@ -458,9 +460,11 @@
           </div>
 
           <div class="modal-form-field-container">
-            <label class="modal-form-field" for="user-phone"></label>
-            <span class="modal-form-lable">Phone</span>
-
+            <label class="modal-form-field" for="user-phone">
+              <span class="modal-form-lable">Phone</span></label
+            >
+          </div>
+          <div class="modal-input">
             <input
               class="modal-form-input"
               type="tel"
@@ -473,9 +477,11 @@
           </div>
 
           <div class="modal-form-field-container">
-            <label class="modal-form-field" for="user-email"></label>
-            <span class="modal-form-lable">Email</span>
-
+            <label class="modal-form-field" for="user-email">
+              <span class="modal-form-lable">Email</span></label
+            >
+          </div>
+          <div class="modal-input">
             <input
               class="modal-form-input"
               type="email"
@@ -488,8 +494,9 @@
           </div>
 
           <div class="modal-form-field-container">
-            <label class="modal-form-comment" for="user-comment"></label>
-            <span class="modal-form-lable">Comment</span>
+            <label class="modal-form-comment" for="user-comment">
+              <span class="modal-form-lable">Comment</span></label
+            >
             <textarea
               class="modal-form-textarea"
               name="user-comment"
@@ -506,16 +513,17 @@
               type="checkbox"
               id="user-privacy"
             />
-            <label class="modal-form-areement" for="user-privacy"></label>
-            <span class="modal-form-custom-checkbox">
-              <svg class="modal-form-checkbox-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-click"></use>
-              </svg>
-            </span>
-            <span class="modal-form-areement-desc"
-              >I accept the terms and conditions of the
-              <a class="modal-checkbox-link" href="">Privacy Policy</a>
-            </span>
+            <label class="modal-form-areement" for="user-privacy">
+              <span class="modal-form-custom-checkbox">
+                <svg class="modal-form-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+              <span class="modal-form-areement-desc"
+                >I accept the terms and conditions of the
+                <a class="modal-checkbox-link" href="">Privacy Policy</a>
+              </span>
+            </label>
           </div>
 
           <button class="modal-button" type="submit">Send</button>
