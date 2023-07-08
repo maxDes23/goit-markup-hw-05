@@ -921,7 +921,7 @@ button {
 }
 
 .modal-form-custom-checkbox {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 
@@ -930,14 +930,18 @@ button {
 
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-
-  transition: border-color, background-color;
+  fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
+  fill: var(--cloud);
   border-color: var(--ocean);
   background-color: var(--ocean);
   transition: border-color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
 }
 
 .modal-form-checkbox-icon {
@@ -950,14 +954,17 @@ button {
   opacity: 1;
 }
 
-.modal-form-areement-desc {
-  color: #8e8f99;
+.modal-form-areement {
+  color: var(--lightslate);
   font-family: Roboto;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.48px;
+}
+
+.modal-form-areement-desc {
 }
 
 .modal-checkbox-link {
